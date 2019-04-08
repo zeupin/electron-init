@@ -1,2 +1,3 @@
 # electron-init
-Initialize an Electron app
+
+Initialize an Electron app.
