@@ -1,0 +1,25 @@
+{
+  "name": "electron-init",
+  "version": "0.1.0",
+  "description": "Initialize an Electron app.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeupin/electron-init.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Macc Liu <maccliu@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeupin/electron-init/issues"
+  },
+  "homepage": "https://github.com/zeupin/electron-init#readme",
+  "devDependencies": {
+    "electron": "^4.1.4"
+  }
+}
