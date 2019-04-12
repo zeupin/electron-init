@@ -1,20 +1,25 @@
 {
   "name": "electron-init",
-  "version": "0.1.0",
-  "description": "Initialize an Electron app.",
+  "version": "0.0.0",
+  "description": "Desciption of your app.",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zeupin/electron-init.git"
+    "start": "electron .",
+    "pack:win": "electron-packager . appname --overwrite --out ./build/ --platform win32 --arch all --ignore=\"(test|dist|mock|.gitignore|LICENSE|README.md)\"",
+    "pack:win32": "electron-packager . appname --overwrite --out ./build/ --platform win32 --arch ia32 --ignore=\"(test|dist|mock|.gitignore|LICENSE|README.md)\"",
+    "pack:win64": "electron-packager . appname --overwrite --out ./build/ --platform win32 --arch x64 --ignore=\"(test|dist|mock|.gitignore|LICENSE|README.md)\"",
+    "pack:mac": "electron-packager . appname --overwrite --out ./build/ --platform darwin --ignore=\"(test|dist|mock|.gitignore|LICENSE|README.md)\"",
+    "pack:mas": "electron-packager . appname --overwrite --out ./build/ --platform mas --ignore=\"(test|dist|mock|.gitignore|LICENSE|README.md)\"",
+    "pack:linux32": "electron-packager . appname --overwrite --out ./build/ --platform linux --arch ia32 --ignore=\"(test|dist|mock|.gitignore|LICENSE|README.md)\"",
+    "pack:linux64": "electron-packager . appname --overwrite --out ./build/ --platform linux --arch x64 --ignore=\"(test|dist|mock|.gitignore|LICENSE|README.md)\"",
+    "pack:all": "electron-packager . appname --overwrite --out ./build/ --all"
   },
   "keywords": [
-    "electron"
+    "electron",
+    "boilerplate"
   ],
   "author": "Macc Liu <maccliu@qq.com>",
-  "license": "MIT",
+  "license": "(c)2018-2019, Your Company Name",
   "bugs": {
     "url": "https://github.com/zeupin/electron-init/issues"
   },
