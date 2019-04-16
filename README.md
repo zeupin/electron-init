@@ -5,14 +5,14 @@
 ## 目录结构
 
 ```
-your-app-name         // 你的APP路径。目录名建议为小写字母
-├─src                 // 源码目录
-│  └─locales              // 本地化
-├─3rd                 // 第三方的库
-├─build               // build目录
-├─dist                // 正式发布的版本
-├─mock                // 演示数据
-└─test                // 测试目录
+your-app-name/        // 你的APP路径。目录名建议为小写字母
+├─src/                // 源码目录
+│  └─locales/             // 本地化文件
+├─3rd/                // 第三方的库
+├─build/              // build目录
+├─dist/               // 正式发布的版本
+├─mock/               // 演示数据
+└─test/               // 测试目录
 ```
 
 ## package.json
@@ -40,8 +40,8 @@ your-app-name         // 你的APP路径。目录名建议为小写字母
     "ep:all": "electron-packager . appname --overwrite --out ./build/ --all"
   },
   "keywords": ["electron", "boilerplate"],
-  "author": "Macc Liu <maccliu@qq.com>",
-  "license": "AGPL",
+  "author": "Your Name <foo@bar.com>",
+  "license": "MIT",
   "copyright": "(c)2018-2019, Your Company Name",
   "bugs": {
     "url": "https://github.com/zeupin/electron-init/issues"
