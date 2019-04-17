@@ -21,7 +21,7 @@
     "boilerplate"
   ],
   "author": "Macc Liu <maccliu@qq.com>",
-  "license": "AGPL",
+  "license": "MIT",
   "copyright": "(c)2018-2019, Your Company Name",
   "bugs": {
     "url": "https://github.com/zeupin/electron-init/issues"
