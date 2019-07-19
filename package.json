@@ -2,7 +2,7 @@
   "name": "electron-init",
   "version": "0.0.0",
   "description": "Desciption of your app.",
-  "main": "src/main.js",
+  "main": "src/app.js",
   "scripts": {
     "start": "electron .",
     "ep": "electron-packager . appname --overwrite --out ./build/ --ignore=\"(test|dist|mock|.gitignore|LICENSE|README.md)\"",
