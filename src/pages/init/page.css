@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  font-size: 10pt;
+  background-color: #038851;
+  color: #ffffff;
+}
+
+div {
+  margin: auto;
+}
