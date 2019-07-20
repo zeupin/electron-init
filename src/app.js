@@ -13,10 +13,18 @@ function init() {
     maximizable: false,
     minimizable: false,
     autoHideMenuBar: true,
+    webPreferences: {
+      // 不加这个，打开的页面将无法使用node.js。
+      // 例如在使用require语句时，会报错"require() is not defined"。
+      nodeIntegration: true,
+    },
   });
 
-  // 加载页面
-  win.loadFile('src/pages/init/index.html');
+  // 打开调试工具
+  win.webContents.openDevTools();
+
+  // 加载init页面
+  win.loadFile(`${__dirname}/pages/init/index.html`);
 
   // 处理closed事件
   win.on('closed', () => {
