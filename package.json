@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/zeupin/electron-init#readme",
   "devDependencies": {
-    "electron": "^6.0"
+    "electron": "^7.0"
   }
 }
