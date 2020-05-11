@@ -29,6 +29,8 @@
   },
   "homepage": "https://github.com/zeupin/electron-init#readme",
   "devDependencies": {
-    "electron": "^8.0"
+    "electron": "^8.2.5",
+    "electron-packager": "^14.2.1",
+    "prettier": "^2.0.5"
   }
 }
