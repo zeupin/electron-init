@@ -1,7 +1,7 @@
 {
-  "name": "electron-init",
+  "name": "your-app-name",
   "version": "0.0.0",
-  "description": "Desciption of your app.",
+  "description": "Desciption of your application.",
   "main": "app/app.js",
   "scripts": {
     "start": "electron .",
@@ -20,14 +20,15 @@
     "electron",
     "boilerplate"
   ],
-  "author": "Macc Liu <maccliu@qq.com>",
-  "license": "MIT",
-  "copyright": "(c)2018-2019, Your Company Name",
+  "author": "Author Name <name@foo.bar>",
+  "license": "UNLICENSED",
+  "private": true,
+  "copyright": "(c)2018-2020 Your Company Name",
   "bugs": {
     "url": "https://github.com/zeupin/electron-init/issues"
   },
   "homepage": "https://github.com/zeupin/electron-init#readme",
   "devDependencies": {
-    "electron": "^7.0"
+    "electron": "^8.0"
   }
 }
