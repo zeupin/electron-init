@@ -5,27 +5,36 @@
 ## 使用方法
 
 ```bash
-git clone --depth 1 https://github.com/zeupin/electron-init.git 你的项目目录名
+git clone --depth=1 https://github.com/zeupin/electron-init.git 你的项目目录名
 ```
 
 ## 目录结构
 
 ```
-your-app-name/        // 你的APP路径。目录名建议为小写字母
-├─src/                // 源码目录
-│  └─locales/             // 本地化文件
-├─build/              // build目录
-├─dist/               // 正式发布的版本
-├─mock/               // 演示数据
-├─tests/              // 测试目录
-└─package.json        // package.json
+your-app-name/        // 你的app路径
+├── LICENSE
+├── README.md
+├── app               // app目录
+│   ├── app.js            // app入口文件
+│   ├── main/         // 主进程的相关代码
+│   └── pages/        // 页面目录(renderer进程)
+│       └── init/         // 页面init
+│           ├── init.html
+│           └── init.css
+│   └── locales/
+├── build/            // build目录
+├── dist/             // 正式发布的版本
+├── mock/             // 演示数据
+├── tests/            // 测试目录
+├── package.json      // package.json
+└── yarn.lock         // yarn.lock
 ```
 
 ## package.json
 
-```json
+```jsonc
 {
-  "name": "your-app-name",
+  "name": "your-app-name",  // 必须为全小写字母
   "productName": "YourAppName",
   "version": "0.0.0",
   "description": "Desciption of your app.",
@@ -45,14 +54,17 @@ your-app-name/        // 你的APP路径。目录名建议为小写字母
   },
   "keywords": ["electron", "boilerplate"],
   "author": "Your Name <foo@bar.com>",
-  "license": "MIT",
+  "license": "UNLICENSED",  // 见下面对常用字段的注释
+  "private": true,  // 见下面对常用字段的注释
   "copyright": "(c)2018-2019, Your Company Name",
   "bugs": {
     "url": "https://github.com/zeupin/electron-init/issues"
   },
   "homepage": "https://github.com/zeupin/electron-init#readme",
   "devDependencies": {
-    "electron": "^4.1.4"
+    "electron": "^8.2.5",
+    "electron-packager": "^14.2.1",
+    "prettier": "^2.0.5"
   }
 }
 ```
