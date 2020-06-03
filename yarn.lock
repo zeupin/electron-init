@@ -328,10 +328,10 @@ electron-packager@^14.2.1:
     semver "^6.0.0"
     yargs-parser "^16.0.0"
 
-electron@^8.2.5:
-  version "8.2.5"
-  resolved "https://registry.npm.taobao.org/electron/download/electron-8.2.5.tgz#ae3cb23d5517b2189fd35298e487198d65d1a291"
-  integrity sha1-rjyyPVUXshif01KY5IcZjWXRopE=
+electron@^9.0:
+  version "9.0.2"
+  resolved "https://registry.npm.taobao.org/electron/download/electron-9.0.2.tgz#361924ce833396f1a45ac2195f442b92eb4f8f5d"
+  integrity sha1-NhkkzoMzlvGkWsIZX0QrkutPj10=
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^12.0.12"

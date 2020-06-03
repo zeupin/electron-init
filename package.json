@@ -5,7 +5,7 @@
   "main": "app/app.js",
   "dependencies": {},
   "devDependencies": {
-    "electron": "^8.2.5",
+    "electron": "^9.0",
     "electron-packager": "^14.2.1",
     "prettier": "^2.0.5"
   },
