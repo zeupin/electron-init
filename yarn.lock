@@ -2,22 +2,7 @@
 # yarn lockfile v1
 
 
-"@electron/get@^1.0.1":
-  version "1.6.0"
-  resolved "https://registry.npm.taobao.org/@electron/get/download/@electron/get-1.6.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40electron%2Fget%2Fdownload%2F%40electron%2Fget-1.6.0.tgz#3e1437fa0f436ce9d4e0c27a4c330835ae6d74ed"
-  integrity sha1-PhQ3+g9DbOnU4MJ6TDMINa5tdO0=
-  dependencies:
-    debug "^4.1.1"
-    env-paths "^2.2.0"
-    fs-extra "^8.1.0"
-    got "^9.6.0"
-    sanitize-filename "^1.6.2"
-    sumchecker "^3.0.0"
-  optionalDependencies:
-    global-agent "^2.0.2"
-    global-tunnel-ng "^2.7.1"
-
-"@electron/get@^1.6.0":
+"@electron/get@^1.0.1", "@electron/get@^1.6.0":
   version "1.12.2"
   resolved "https://registry.npm.taobao.org/@electron/get/download/@electron/get-1.12.2.tgz#6442066afb99be08cefb9a281e4b4692b33764f3"
   integrity sha1-ZEIGavuZvgjO+5ooHktGkrM3ZPM=
@@ -64,15 +49,10 @@
   resolved "https://registry.npm.taobao.org/@types/minimatch/download/@types/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha1-PcoOPzOyAPx9ETnAzZbBJoyt/Z0=
 
-"@types/node@*":
-  version "13.13.5"
-  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-13.13.5.tgz#96ec3b0afafd64a4ccea9107b75bf8489f0e5765"
-  integrity sha1-luw7Cvr9ZKTM6pEHt1v4SJ8OV2U=
-
-"@types/node@^12.0.12":
-  version "12.12.0"
-  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-12.12.0.tgz#ff3201972d6dc851a9275308a17b9b5094e68057"
-  integrity sha1-/zIBly1tyFGpJ1MIoXubUJTmgFc=
+"@types/node@*", "@types/node@^14.6.2":
+  version "14.18.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.12.tgz#0d4557fd3b94497d793efd4e7d92df2f83b4ef24"
+  integrity sha512-q4jlIR71hUpWTnGhXWcakgkZeHa3CCjcQcnuzU8M891BAWA2jHiziiWEPEkdS5pFsz7H9HJiy8BrK7tBRNrY7A==
 
 asar@^2.0.1:
   version "2.1.0"
@@ -328,13 +308,13 @@ electron-packager@^14.2.1:
     semver "^6.0.0"
     yargs-parser "^16.0.0"
 
-electron@^9.0:
-  version "9.0.2"
-  resolved "https://registry.npm.taobao.org/electron/download/electron-9.0.2.tgz#361924ce833396f1a45ac2195f442b92eb4f8f5d"
-  integrity sha1-NhkkzoMzlvGkWsIZX0QrkutPj10=
+electron@^13.6:
+  version "13.6.6"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-13.6.6.tgz#ebd4754b2b55d54a2e8e9cdc3d0a2bb6b7053827"
+  integrity sha512-TP2Bl1nTxaH1yRmlYiF7imzvKE/NASE0cl6wOYA3AaP/UrBGc4L3NwJfn5Z55o+1t4TH8vCRxENufESyb32HhA==
   dependencies:
     "@electron/get" "^1.0.1"
-    "@types/node" "^12.0.12"
+    "@types/node" "^14.6.2"
     extract-zip "^1.0.3"
 
 encodeurl@^1.0.2:
@@ -1017,13 +997,6 @@ strip-bom@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/strip-bom/download/strip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
   integrity sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM=
-
-sumchecker@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/sumchecker/download/sumchecker-3.0.0.tgz#da5457b4605184575c76540e5e99cc777cb8ce4c"
-  integrity sha1-2lRXtGBRhFdcdlQOXpnMd3y4zkw=
-  dependencies:
-    debug "^4.1.0"
 
 sumchecker@^3.0.1:
   version "3.0.1"
